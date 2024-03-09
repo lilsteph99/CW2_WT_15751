@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon.app.js"
+    "start": "nodemon app.js"
   },
   "author": "00015751",
   "license": "ISC",
@@ -13,8 +13,10 @@
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
-    "nodemon": "^3.0.3",
     "pug": "^3.0.2"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
